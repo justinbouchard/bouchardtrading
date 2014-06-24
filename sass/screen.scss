@@ -2,13 +2,14 @@
 
 	//GLOBAL
 	@import "compass/reset";
-	@import "global/base";	
-	@import "global/variables";
-	@import "global/mixins";
-	
 	@import "base";
 	@import "skeleton";
 	@import "layout";
 
-	//MARKETING
+	@import "global/variables";
+	@import "global/mixins";
+	@import "global/base";	
 	
+
+	//MARKETING
+	@import "home";
