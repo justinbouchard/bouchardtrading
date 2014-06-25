@@ -1,5 +1,7 @@
 //BOUCHARD TRADE BASE STYLES
 
+//Let's work on general spacing and structure to this page.
+
 h1, h2, h3, h4, h5, h6{
 	font-family:'Merriweather',"Georgia", serif;
 	font-weight: 400;
@@ -18,7 +20,7 @@ h1{
 	
 }
 
-/*Menu*/
+/*Menu*/ //Let's make sure this section uses good SCSS syntax and that we define Merriweather as a variable.
 ul.main_menu {
 font-family:'Merriweather',"Georgia", serif;
 	font-weight: 700;

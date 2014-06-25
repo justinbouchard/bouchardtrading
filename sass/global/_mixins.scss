@@ -1,1 +1,9 @@
 //BOUCHARD TRADE MIXINS STYLES
+
+	//BACKGROUND SIZE
+	@mixin backgroundSize ($value){
+	  -webkit-background-size: $value;
+	  -moz-background-size: $value;
+	  -o-background-size: $value;
+	  background-size: $value;
+	}

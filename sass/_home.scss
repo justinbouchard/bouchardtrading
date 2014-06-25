@@ -1,10 +1,15 @@
+//BOUCHARD TRADE HOMEPAGE STYLES
+	
+.homepage-container{
 
-
-#homeheader {
-	background-image: url(../img/header-img.jpg);
-	height: 600px;
-	width: 100%;
-  margin: 0 auto;
+	//MAIN HEADER
+	.homepage-header {
+		background-image: url(../img/header-img.jpg);
+		max-height: 600px;
+		@include backgroundSize(cover);
+	  margin: 0 auto;
+	  padding: 2.3em 0;
+	}
 }
 
 
