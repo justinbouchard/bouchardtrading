@@ -77,10 +77,13 @@ section{
 
 footer{
 background: $light-blue;
-height: 60px;
+padding: 10px 0px 10px 0px;
 font-size: 11px; 
-line-height: 40px;
-color: #FFFFFF;
-line-height: 15px;
+color: $white;
+text-decoration: none;
 /* Copyright © 2014. Al: */
+
+  p:hover{
+  color: $light-blue;
+  }
 }
