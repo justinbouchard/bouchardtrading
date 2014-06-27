@@ -1185,67 +1185,74 @@ p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
 }
 
+/* line 31, ../sass/global/_base.scss */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 /* margin-bottom: 100px;  */
 /*Menu*/
-/* line 33, ../sass/global/_base.scss */
+/* line 38, ../sass/global/_base.scss */
 .main-menu {
-  list-style: none;
+  clear: both;
   font-family: "Merriweatger", Georgia, serif;
   font-weight: 700;
   font-size: 22px;
-  clear: both;
+  list-style: none;
   margin: 20px;
 }
-/* line 41, ../sass/global/_base.scss */
+/* line 46, ../sass/global/_base.scss */
 .main-menu li {
+  color: #004981;
+  display: block;
   float: right;
   position: relative;
-  display: block;
   padding: 0 30px;
-  color: #004981;
 }
-/* line 48, ../sass/global/_base.scss */
+/* line 55, ../sass/global/_base.scss */
 .main-menu li li:last-child {
   padding-right: 0;
 }
 
-/* line 56, ../sass/global/_base.scss */
+/* line 63, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 61, ../sass/global/_base.scss */
+/* line 68, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 67, ../sass/global/_base.scss */
+/* line 74, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-/* line 70, ../sass/global/_base.scss */
+/* line 77, ../sass/global/_base.scss */
 .new-section p {
   font-size: 12px;
 }
 
-/* line 75, ../sass/global/_base.scss */
+/* line 82, ../sass/global/_base.scss */
 aside {
-  padding: 15px;
+  padding: 30px;
 }
 
-/* line 80, ../sass/global/_base.scss */
+/* line 87, ../sass/global/_base.scss */
 footer {
-  background: #0083c1;
-  padding: 10px 0px 10px 0px;
-  font-size: 11px;
   color: white;
+  background: #0083c1;
+  font-size: 11px;
   text-decoration: none;
+  padding: 10px 0px 10px 0px;
   /* Copyright © 2014. Al: */
 }
-/* line 88, ../sass/global/_base.scss */
+/* line 95, ../sass/global/_base.scss */
 footer p:hover {
   color: #0083c1;
 }
