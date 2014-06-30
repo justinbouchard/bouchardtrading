@@ -1,0 +1,86 @@
+//BOUCHARD TRADE NAVIGATION STYLES
+
+	//HOMEPAGE
+	.homepage-header{
+
+		nav{ padding-top: 25px; }
+
+		li{ display: inline-block; }
+
+		.left{
+			float: left;
+
+			.logo-home{
+				background: $transparent url('../img/logo-white.png') no-repeat left top;
+				height: 145px;
+				text-indent: -9999px;
+				width: 180px;
+
+				@include image-2x(url(../img/logo-white@2x.png), 100%, auto); 
+			}
+		}
+
+		.right{
+			float: right;
+			margin-top: 80px;
+
+			a{ text-decoration: none; }
+
+			a > li{
+				display: inline;
+				font-family: $font-serif;
+				font-size: 24px;
+				font-weight: 700;
+				@include textShadow(0 1px 1px, rgba(0,0,0,0.4)); 
+				@include transition(all, 0.3s, ease-in);
+				padding: 0 1.3em; 
+
+				&:hover{ opacity: 0.6; }
+
+				&:last-child{ padding-right: 0; }
+			}
+		}
+	}
+
+
+	//INSIDE PAGES
+	.inside-pages-header{
+		nav{ padding-top: 25px; }
+
+		li{ display: inline-block; }
+
+		.left{
+			float: left;
+
+			.logo-img{
+				background: $transparent url('../img/logo-navy.png') no-repeat left top;
+				height: 145px;
+				text-indent: -9999px;
+				width: 180px;
+
+				@include image-2x(url(../img/logo-navy@2x.png), 100%, auto);
+			}
+		}
+
+		.right{
+			float: right;
+			margin-top: 80px;
+
+			a{ text-decoration: none; }
+
+			a > li{
+				color: $dark-blue;
+				display: inline;
+				font-family: $font-serif;
+				font-size: 24px;
+				font-weight: 700;
+				@include textShadow(0 1px 1px, rgba(0,0,0,0.4)); 
+				@include transition(all, 0.3s, ease-in);
+				padding: 0 1.3em; 
+
+				&:hover{ opacity: 0.6; }
+
+				&:last-child{ padding-right: 0; }
+			}
+		}
+	}

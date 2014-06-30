@@ -1,20 +1,12 @@
 //BOUCHARD TRADE BASE STYLES
 
-//Let's work on general spacing and structure to this page.
+.right{ float: right; }
 
-.right{
-  float: right;
-}
-
-.left{
-  float: left;
-}
+.left{ float: left; }
 
 .center { text-align: center; }
 
-.gray-back{
-background-color: $background-gray;
-}
+.gray-back{ background-color: $background-gray; }
 
 h1, h2, h3, h4, h5, h6{
 	font-family:$font-serif,"Georgia", serif;
@@ -22,37 +14,10 @@ h1, h2, h3, h4, h5, h6{
 	color: $dark-blue;
 }
 
-p{
-  font-family: $font-sans, "Arial", sans-serif;
-}
-
-.logo{
-  position: absolute;
-  top: 20px;
-  left: 20px;
-} 
-  /* margin-bottom: 100px;  */
-/*Menu*/ //Let's make sure this section uses good SCSS syntax and that we define Merriweather as a variable.
-.main-menu {
-  clear:both; 
-  font-family: $font-serif;
-  font-weight: 700;
-  font-size: 22px; 
-  list-style:none;
-  margin:20px;
-
-  li{ 
-    color: $dark-blue;
-    display: block;
-    float: right; 
-    position: relative; 
-  	padding: 0 30px; 
-		
-    li:last-child{ padding-right: 0; }
-  }
-}
+p{ font-family: $font-sans, "Arial", sans-serif; }
 
 section{
+  
   h1{
     color: $dark-blue;
   }
@@ -73,9 +38,10 @@ section{
 }
 
 aside{
+  
   p{
     margin: 20px;
-    padding:30px;
+    padding:10px;
   }
 }
 
@@ -85,7 +51,8 @@ footer{
   background: $light-blue;
   font-size: 11px; 
   text-decoration: none;
-  padding: 10px 0px 10px 0px;
+  margin-top: 40px;
+
 
   p{
 
