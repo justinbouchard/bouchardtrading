@@ -44,18 +44,3 @@ aside{
     padding:10px;
   }
 }
-
-
-footer{
-  color: $white;
-  background: $light-blue;
-  font-size: 11px; 
-  text-decoration: none;
-  margin-top: 40px;
-
-
-  p{
-
-    &:hover{ color: $light-blue; }
-  }
-}

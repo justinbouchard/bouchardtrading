@@ -74,7 +74,7 @@
 				font-family: $font-serif;
 				font-size: 24px;
 				font-weight: 700;
-				@include textShadow(0 1px 1px, rgba(0,0,0,0.4)); 
+				@include textShadow(0 0 0, $transparent); 
 				@include transition(all, 0.3s, ease-in);
 				padding: 0 1.3em; 
 
