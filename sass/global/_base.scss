@@ -48,13 +48,9 @@ p{
     position: relative; 
   	padding: 0 30px; 
 		
-
-    li:last-child{
-  		padding-right: 0;
-	  }
+    li:last-child{ padding-right: 0; }
   }
 }
-
 
 section{
   h1{
@@ -78,6 +74,7 @@ section{
 
 aside{
   p{
+    margin: 20px;
     padding:30px;
   }
 }
@@ -90,7 +87,8 @@ footer{
   text-decoration: none;
   padding: 10px 0px 10px 0px;
 
-  p:hover{
-  color: $light-blue;
+  p{
+
+    &:hover{ color: $light-blue; }
   }
 }

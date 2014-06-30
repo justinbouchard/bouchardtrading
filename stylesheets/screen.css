@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1163,29 +1162,29 @@ legend span {
   float: left;
 }
 
-/* line 14, ../sass/global/_base.scss */
+/* line 13, ../sass/global/_base.scss */
 .center {
   text-align: center;
 }
 
-/* line 17, ../sass/global/_base.scss */
+/* line 15, ../sass/global/_base.scss */
 .gray-back {
   background-color: rgba(155, 155, 155, 0.08);
 }
 
-/* line 21, ../sass/global/_base.scss */
+/* line 19, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 27, ../sass/global/_base.scss */
+/* line 25, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
 }
 
-/* line 31, ../sass/global/_base.scss */
+/* line 29, ../sass/global/_base.scss */
 .logo {
   position: absolute;
   top: 20px;
@@ -1194,7 +1193,7 @@ p {
 
 /* margin-bottom: 100px;  */
 /*Menu*/
-/* line 38, ../sass/global/_base.scss */
+/* line 36, ../sass/global/_base.scss */
 .main-menu {
   clear: both;
   font-family: "Merriweatger", Georgia, serif;
@@ -1203,7 +1202,7 @@ p {
   list-style: none;
   margin: 20px;
 }
-/* line 46, ../sass/global/_base.scss */
+/* line 44, ../sass/global/_base.scss */
 .main-menu li {
   color: #004981;
   display: block;
@@ -1211,48 +1210,48 @@ p {
   position: relative;
   padding: 0 30px;
 }
-/* line 55, ../sass/global/_base.scss */
+/* line 51, ../sass/global/_base.scss */
 .main-menu li li:last-child {
   padding-right: 0;
 }
 
-/* line 63, ../sass/global/_base.scss */
+/* line 56, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 68, ../sass/global/_base.scss */
+/* line 61, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 74, ../sass/global/_base.scss */
+/* line 67, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-/* line 77, ../sass/global/_base.scss */
+/* line 70, ../sass/global/_base.scss */
 .new-section p {
   font-size: 12px;
 }
 
-/* line 82, ../sass/global/_base.scss */
-aside {
+/* line 76, ../sass/global/_base.scss */
+aside p {
+  margin: 20px;
   padding: 30px;
 }
 
-/* line 87, ../sass/global/_base.scss */
+/* line 83, ../sass/global/_base.scss */
 footer {
   color: white;
   background: #0083c1;
   font-size: 11px;
   text-decoration: none;
   padding: 10px 0px 10px 0px;
-  /* Copyright © 2014. Al: */
 }
-/* line 95, ../sass/global/_base.scss */
+/* line 92, ../sass/global/_base.scss */
 footer p:hover {
   color: #0083c1;
 }
@@ -1266,46 +1265,45 @@ footer p:hover {
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
-  color: #fff;
+  color: white;
   border-top: solid #004981 15px;
 }
 /* line 13, ../sass/_home.scss */
 .homepage-container .homepage-header h1 {
-  color: #fff;
-  font-size: 60px;
-  line-height: 64px;
-  text-shadow: 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 70px;
+  line-height: 74px;
 }
-/* line 20, ../sass/_home.scss */
+/* line 18, ../sass/_home.scss */
 .homepage-container .homepage-header h4 {
   color: white;
   font-size: 36px;
   line-height: 40px;
 }
-/* line 25, ../sass/_home.scss */
+/* line 23, ../sass/_home.scss */
 .homepage-container .homepage-header li {
-  color: #fff;
+  color: white;
 }
 
-/* line 32, ../sass/_home.scss */
+/* line 30, ../sass/_home.scss */
 .logo {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-/* line 37, ../sass/_home.scss */
+/* line 36, ../sass/_home.scss */
 .intro {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 42, ../sass/_home.scss */
+/* line 41, ../sass/_home.scss */
 .news-section {
   padding-top: 40px;
 }
 
-/* line 46, ../sass/_home.scss */
+/* line 45, ../sass/_home.scss */
 .icon-small {
   float: right;
   width: 100px;
