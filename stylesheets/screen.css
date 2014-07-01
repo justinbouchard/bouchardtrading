@@ -1167,46 +1167,53 @@ legend span {
   text-align: center;
 }
 
-/* line 10, ../sass/global/_base.scss */
+/* line 9, ../sass/global/_base.scss */
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 15, ../sass/global/_base.scss */
 .gray-back {
   background-color: rgba(155, 155, 155, 0.08);
 }
 
-/* line 12, ../sass/global/_base.scss */
+/* line 19, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 18, ../sass/global/_base.scss */
+/* line 25, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
 }
 
-/* line 22, ../sass/global/_base.scss */
+/* line 29, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 27, ../sass/global/_base.scss */
+/* line 34, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 33, ../sass/global/_base.scss */
+/* line 40, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-/* line 36, ../sass/global/_base.scss */
+/* line 43, ../sass/global/_base.scss */
 .new-section p {
   font-size: 12px;
 }
 
-/* line 43, ../sass/global/_base.scss */
+/* line 50, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
