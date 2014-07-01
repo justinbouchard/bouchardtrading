@@ -3,6 +3,7 @@
 	//COLORS
 
 		//BLACK
+		$black: #000000;
 
 		//BLUE
 		$light-blue: #0083C1;
@@ -14,10 +15,13 @@
 		//WHITE
 		$white: #fff;
 
+		//TRANSPARENT
+		$transparent: transparent; 
+
 
 		//FONTS
-		$font-serif: "freight-text", Georgia, serif;
-		$font-sans: "Open Sans", Helvetica Neue, sans-serif;
+		$font-serif: "Merriweatger", Georgia, serif;
+		$font-sans: "Open Sans", "Helvetica Neue", sans-serif;
 
 		//TEXT SIZES
 		$main-font-size: 16px;

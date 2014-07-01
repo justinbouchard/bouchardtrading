@@ -2,15 +2,47 @@
 	
 .homepage-container{
 
-	//MAIN HEADER
 	.homepage-header {
-		background-image: url(../img/header-img.jpg);
+		background-image: url(../img/header-img-gray.jpg);
 		max-height: 600px;
 		@include backgroundSize(cover);
 	  margin: 0 auto;
-	  padding: 2.3em 0;
-	}
+	  color: $white;
+	  border-top: solid $dark-blue 8px; 
+    
+      h1{
+        color: $white;
+        font-size:70px;
+        line-height: 74px;
+               }
+      h4{
+        color:$white;
+        font-size: 36px;
+        line-height: 40px;
+        }
+     li{
+      color: $white;
+    }
+  }
 }
+
+
+.intro{
+ padding-top: 100px;
+ padding-bottom: 100px;  
+}
+
+.news-section{
+  padding-top: 40px;
+}
+
+.newsicon{
+  margin: 0 auto;
+  width: 180px;
+  height: auto;
+  padding: 40px;
+  }
+      
 
 
 
