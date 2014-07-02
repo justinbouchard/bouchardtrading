@@ -1173,54 +1173,56 @@ legend span {
   margin: 0 auto;
 }
 
-/* line 14, ../sass/global/_base.scss */
+/* line 13, ../sass/global/_base.scss */
+.block {
+  display: block;
+  clear: both;
+}
+
+/* line 18, ../sass/global/_base.scss */
 .gray-back {
   background-color: rgba(155, 155, 155, 0.08);
 }
 
-/* line 18, ../sass/global/_base.scss */
+/* line 22, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 24, ../sass/global/_base.scss */
+/* line 28, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 30, ../sass/global/_base.scss */
+/* line 34, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 35, ../sass/global/_base.scss */
+/* line 39, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
-/* line 40, ../sass/global/_base.scss */
+/* line 44, ../sass/global/_base.scss */
 .section-block p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
-/* line 45, ../sass/global/_base.scss */
+/* line 50, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-/* line 48, ../sass/global/_base.scss */
-.new-section p {
-  font-size: 14px;
-}
 
-/* line 55, ../sass/global/_base.scss */
+/* line 57, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
@@ -1241,7 +1243,7 @@ aside p {
 /* line 13, ../sass/_home.scss */
 .homepage-container .homepage-header h1 {
   color: white;
-  font-size: 70px;
+  font-size: 76px;
   line-height: 74px;
 }
 /* line 18, ../sass/_home.scss */
@@ -1257,17 +1259,32 @@ aside p {
 
 /* line 30, ../sass/_home.scss */
 .intro {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 
-/* line 35, ../sass/_home.scss */
+/* line 36, ../sass/_home.scss */
+.about-content p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 42, ../sass/_home.scss */
 .contenthead {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-/* line 44, ../sass/_home.scss */
+/* line 53, ../sass/_home.scss */
+.news-description {
+  margin-top: 45px;
+}
+/* line 55, ../sass/_home.scss */
+.news-description h5 {
+  font-size: 24px;
+}
+
+/* line 60, ../sass/_home.scss */
 .newsicon {
   margin: 0 auto;
   width: 180px;
