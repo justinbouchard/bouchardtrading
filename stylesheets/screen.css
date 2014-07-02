@@ -1188,31 +1188,39 @@ h1, h2, h3, h4, h5, h6 {
 /* line 24, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-/* line 28, ../sass/global/_base.scss */
+/* line 30, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 33, ../sass/global/_base.scss */
+/* line 35, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
+/* line 40, ../sass/global/_base.scss */
+.section-block p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
 
-/* line 39, ../sass/global/_base.scss */
+/* line 45, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-/* line 42, ../sass/global/_base.scss */
+/* line 48, ../sass/global/_base.scss */
 .new-section p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-/* line 49, ../sass/global/_base.scss */
+/* line 55, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
