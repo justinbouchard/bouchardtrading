@@ -21,7 +21,9 @@ h1, h2, h3, h4, h5, h6{
 	color: $dark-blue;
 }
 
-p{ font-family: $font-sans, "Arial", sans-serif; }
+p{ font-family: $font-sans, "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px }
 
 section{
   
@@ -34,13 +36,17 @@ section{
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
+
+  p{ font-family: $font-sans, "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px }
 }
 
 .new-section{
   padding-top: 40px;
   padding-bottom: 20px;
   p{ 
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
