@@ -1259,32 +1259,31 @@ aside p {
 
 /* line 30, ../sass/_home.scss */
 .intro {
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
-/* line 36, ../sass/_home.scss */
+/* line 35, ../sass/_home.scss */
 .about-content p {
   font-size: 20px;
   line-height: 24px;
 }
 
-/* line 42, ../sass/_home.scss */
+/* line 41, ../sass/_home.scss */
 .contenthead {
-  margin-top: 60px;
+  margin-top: 10px;
   margin-bottom: 60px;
 }
 
-/* line 53, ../sass/_home.scss */
+/* line 49, ../sass/_home.scss */
 .news-description {
   margin-top: 45px;
 }
-/* line 55, ../sass/_home.scss */
+/* line 51, ../sass/_home.scss */
 .news-description h5 {
   font-size: 24px;
 }
 
-/* line 60, ../sass/_home.scss */
+/* line 56, ../sass/_home.scss */
 .newsicon {
   margin: 0 auto;
   width: 180px;
