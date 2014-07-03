@@ -1,4 +1,22 @@
 //BOUCHARD TRADE BASE STYLES
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -30px;
+}
+
+.footer, .push {
+height: 30px;
+}
 
 .right{ float: right; }
 
@@ -16,8 +34,6 @@
 }
 
 .gray-back{ background-color: $background-gray; }
-
-
 
 h1, h2, h3, h4, h5, h6{
 	font-family:$font-serif,"Georgia", serif;
