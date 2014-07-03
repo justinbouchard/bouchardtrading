@@ -1245,45 +1245,55 @@ aside p {
   color: white;
   font-size: 76px;
   line-height: 74px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 18, ../sass/_home.scss */
+/* line 19, ../sass/_home.scss */
 .homepage-container .homepage-header h4 {
   color: white;
   font-size: 36px;
   line-height: 40px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 23, ../sass/_home.scss */
+/* line 25, ../sass/_home.scss */
 .homepage-container .homepage-header li {
   color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 30, ../sass/_home.scss */
+/* line 32, ../sass/_home.scss */
 .intro {
   padding-bottom: 80px;
 }
 
-/* line 35, ../sass/_home.scss */
+/* line 37, ../sass/_home.scss */
 .about-content p {
   font-size: 20px;
   line-height: 24px;
 }
 
-/* line 41, ../sass/_home.scss */
+/* line 43, ../sass/_home.scss */
 .contenthead {
   margin-top: 10px;
   margin-bottom: 60px;
 }
 
-/* line 49, ../sass/_home.scss */
+/* line 50, ../sass/_home.scss */
 .news-description {
   margin-top: 45px;
 }
-/* line 51, ../sass/_home.scss */
+/* line 52, ../sass/_home.scss */
 .news-description h5 {
   font-size: 24px;
 }
+/* line 55, ../sass/_home.scss */
+.news-description h3 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
 
-/* line 56, ../sass/_home.scss */
+/* line 64, ../sass/_home.scss */
 .newsicon {
   margin: 0 auto;
   width: 180px;
