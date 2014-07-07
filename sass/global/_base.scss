@@ -1,4 +1,22 @@
 //BOUCHARD TRADE BASE STYLES
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -30px;
+}
+
+.footer, .push {
+height: 30px;
+}
 
 .right{ float: right; }
 
@@ -10,10 +28,12 @@
   display: block;
   margin: 0 auto;
 }
+.block{
+  display: block;
+  clear: both;
+}
 
 .gray-back{ background-color: $background-gray; }
-
-
 
 h1, h2, h3, h4, h5, h6{
 	font-family:$font-serif,"Georgia", serif;
@@ -38,16 +58,14 @@ section{
   margin-bottom: 20px;
 
   p{ font-family: $font-sans, "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 20px }
+  font-size: 16px;
+  line-height: 20px 
+  }
 }
 
 .new-section{
   padding-top: 40px;
   padding-bottom: 20px;
-  p{ 
-    font-size: 14px;
-  }
 }
 
 aside{
