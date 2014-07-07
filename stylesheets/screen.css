@@ -1167,12 +1167,12 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -30px;
+  margin: 0 auto -20px;
 }
 
 /* line 17, ../sass/global/_base.scss */
 .footer, .push {
-  height: 30px;
+  height: 20px;
 }
 
 /* line 21, ../sass/global/_base.scss */
@@ -1203,52 +1203,78 @@ html, body {
 }
 
 /* line 36, ../sass/global/_base.scss */
+.bottom-space {
+  margin-bottom: 50px;
+}
+
+/* line 40, ../sass/global/_base.scss */
 .gray-back {
   background-color: rgba(155, 155, 155, 0.08);
 }
 
-/* line 38, ../sass/global/_base.scss */
+/* line 42, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 44, ../sass/global/_base.scss */
+/* line 48, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 50, ../sass/global/_base.scss */
+/* line 52, ../sass/global/_base.scss */
+.bold {
+  font-weight: 600;
+}
+
+/* line 57, ../sass/global/_base.scss */
+.row {
+  margin-bottom: 0;
+}
+
+/* line 64, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 55, ../sass/global/_base.scss */
+/* line 69, ../sass/global/_base.scss */
 .section-block {
   display: block;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
-/* line 60, ../sass/global/_base.scss */
+/* line 74, ../sass/global/_base.scss */
 .section-block p {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 
-/* line 66, ../sass/global/_base.scss */
+/* line 80, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 73, ../sass/global/_base.scss */
+/* line 87, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
+}
+
+/* line 95, ../sass/global/_base.scss */
+.inner-header-img {
+  background-image: url(../img/inner-header.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 /* line 5, ../sass/_home.scss */
@@ -1450,9 +1476,25 @@ aside p {
   font-size: 11px;
   height: 30px;
   text-decoration: none;
-  margin-top: 40px;
+  padding: 10px 0px 0px;
 }
 /* line 10, ../sass/_footer.scss */
 .site-footer ul, .site-footer li, .site-footer .row {
   margin-bottom: 0;
+}
+
+/* line 1, ../sass/_careers.scss */
+.joblist {
+  margin: 20px 0px;
+  text-indent: 20px;
+}
+
+/* line 8, ../sass/_careers.scss */
+.job-contact p {
+  font-size: 14px;
+}
+
+/* line 13, ../sass/_careers.scss */
+h5 {
+  font-size: 24px;
 }

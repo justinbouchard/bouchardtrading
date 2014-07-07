@@ -11,11 +11,11 @@ height: 100%;
 min-height: 100%;
 height: auto !important;
 height: 100%;
-margin: 0 auto -30px;
+margin: 0 auto -20px;
 }
 
 .footer, .push {
-height: 30px;
+height: 20px;
 }
 
 .right{ float: right; }
@@ -33,7 +33,11 @@ height: 30px;
   clear: both;
 }
 
-.gray-back{ background-color: $background-gray; }
+.bottom-space{
+  margin-bottom: 50px;
+}
+
+.gray-back{ background-color: $background-gray;}
 
 h1, h2, h3, h4, h5, h6{
 	font-family:$font-serif,"Georgia", serif;
@@ -45,6 +49,16 @@ p{ font-family: $font-sans, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px }
 
+.bold{
+  font-weight: 600;
+}
+
+
+.row{
+  margin-bottom: 0;
+}
+
+
 section{
   
   h1{
@@ -54,10 +68,10 @@ section{
 
 .section-block{
   display: block;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 20px;
 
-  p{ font-family: $font-sans, "Arial", sans-serif;
+  p{ font-family: $font-sans;
   font-size: 16px;
   line-height: 20px 
   }
@@ -71,7 +85,16 @@ section{
 aside{
   
   p{
+
     margin: 20px;
-    padding:10px;
+    padding: 10px;
   }
+}
+
+
+.inner-header-img{
+  background-image: url(../img/inner-header.jpg);
+  height: 300px;
+  @include backgroundSize(cover);
+  margin: 0 auto;
 }
