@@ -10,18 +10,18 @@
 	  color: $white;
 	  border-top: solid $dark-blue 8px; 
     
-      .homepage_big_header{
+     h1{
         color: $white;
         font-size:76px;
         line-height: 74px;
-        text-shadow: $dropshadow;
+        @include textShadow;
       }
       
       h4{
         color:$white;
         font-size: 36px;
         line-height: 40px;
-        text-shadow: $dropshadow;
+        @include textShadow;
       }
      
      li{
@@ -38,7 +38,7 @@
 .about-content{
   p{
     font-size: 20px;
-    line-height: 24px;
+    line-height: 26px;
   }
 }
 

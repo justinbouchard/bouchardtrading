@@ -1318,18 +1318,22 @@ aside p {
   border-top: solid #004981 8px;
 }
 /* line 13, ../sass/_home.scss */
-.homepage-container .homepage-header .homepage_big_header {
+.homepage-container .homepage-header h1 {
   color: white;
   font-size: 76px;
   line-height: 74px;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 /* line 20, ../sass/_home.scss */
 .homepage-container .homepage-header h4 {
   color: white;
   font-size: 36px;
   line-height: 40px;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 /* line 27, ../sass/_home.scss */
 .homepage-container .homepage-header li {
@@ -1345,7 +1349,7 @@ aside p {
 /* line 39, ../sass/_home.scss */
 .about-content p {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 /* line 45, ../sass/_home.scss */
