@@ -1213,60 +1213,77 @@ html, body {
 }
 
 /* line 42, ../sass/global/_base.scss */
+h1 {
+  font-size: 76px;
+  line-height: 74px;
+}
+
+/* line 48, ../sass/global/_base.scss */
+h4 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+/* line 52, ../sass/global/_base.scss */
+h5 {
+  font-size: 24px;
+}
+
+/* line 57, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
+  font-family: "Merriweatger", Georgia, serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 48, ../sass/global/_base.scss */
+/* line 63, ../sass/global/_base.scss */
 p {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
-  font-size: 14px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
   line-height: 20px;
 }
 
-/* line 52, ../sass/global/_base.scss */
+/* line 67, ../sass/global/_base.scss */
 .bold {
   font-weight: 600;
 }
 
-/* line 57, ../sass/global/_base.scss */
+/* line 72, ../sass/global/_base.scss */
 .row {
   margin-bottom: 0;
 }
 
-/* line 64, ../sass/global/_base.scss */
+/* line 79, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-/* line 69, ../sass/global/_base.scss */
+/* line 84, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-/* line 74, ../sass/global/_base.scss */
+/* line 89, ../sass/global/_base.scss */
 .section-block p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 
-/* line 80, ../sass/global/_base.scss */
+/* line 95, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 87, ../sass/global/_base.scss */
+/* line 102, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
 }
 
-/* line 95, ../sass/global/_base.scss */
+/* line 110, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1478,10 +1495,6 @@ aside p {
   text-decoration: none;
   padding: 10px 0px 0px;
 }
-/* line 11, ../sass/_footer.scss */
-.site-footer ul, .site-footer li, .site-footer .row {
-  margin-bottom: 0;
-}
 
 /* line 1, ../sass/_careers.scss */
 .joblist {
@@ -1489,12 +1502,7 @@ aside p {
   text-indent: 20px;
 }
 
-/* line 8, ../sass/_careers.scss */
-.job-contact p {
+/* line 6, ../sass/_careers.scss */
+.job-contact {
   font-size: 14px;
-}
-
-/* line 13, ../sass/_careers.scss */
-h5 {
-  font-size: 24px;
 }
