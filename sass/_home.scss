@@ -10,18 +10,20 @@
 	  color: $white;
 	  border-top: solid $dark-blue 8px; 
     
-      h1{
+      .homepage_big_header{
         color: $white;
         font-size:76px;
         line-height: 74px;
         text-shadow: $dropshadow;
-               }
+      }
+      
       h4{
         color:$white;
         font-size: 36px;
         line-height: 40px;
         text-shadow: $dropshadow;
-        }
+      }
+     
      li{
       color: $white;
       text-shadow: $dropshadow;
@@ -49,6 +51,7 @@
 
 .news-description{
   margin-top: 45px;
+  
   h5{
     font-size: 24px;
   }

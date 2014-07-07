@@ -1290,51 +1290,51 @@ aside p {
   border-top: solid #004981 8px;
 }
 /* line 13, ../sass/_home.scss */
-.homepage-container .homepage-header h1 {
+.homepage-container .homepage-header .homepage_big_header {
   color: white;
   font-size: 76px;
   line-height: 74px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 19, ../sass/_home.scss */
+/* line 20, ../sass/_home.scss */
 .homepage-container .homepage-header h4 {
   color: white;
   font-size: 36px;
   line-height: 40px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 25, ../sass/_home.scss */
+/* line 27, ../sass/_home.scss */
 .homepage-container .homepage-header li {
   color: white;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 32, ../sass/_home.scss */
+/* line 34, ../sass/_home.scss */
 .intro {
   padding-bottom: 80px;
 }
 
-/* line 37, ../sass/_home.scss */
+/* line 39, ../sass/_home.scss */
 .about-content p {
   font-size: 20px;
   line-height: 24px;
 }
 
-/* line 43, ../sass/_home.scss */
+/* line 45, ../sass/_home.scss */
 .contenthead {
   margin-top: 10px;
   margin-bottom: 60px;
 }
 
-/* line 50, ../sass/_home.scss */
+/* line 52, ../sass/_home.scss */
 .news-description {
   margin-top: 45px;
 }
-/* line 52, ../sass/_home.scss */
+/* line 55, ../sass/_home.scss */
 .news-description h5 {
   font-size: 24px;
 }
-/* line 55, ../sass/_home.scss */
+/* line 58, ../sass/_home.scss */
 .news-description h3 {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
@@ -1342,7 +1342,7 @@ aside p {
   line-height: 22px;
 }
 
-/* line 64, ../sass/_home.scss */
+/* line 67, ../sass/_home.scss */
 .newsicon {
   margin: 0 auto;
   width: 180px;
@@ -1478,7 +1478,7 @@ aside p {
   text-decoration: none;
   padding: 10px 0px 0px;
 }
-/* line 10, ../sass/_footer.scss */
+/* line 11, ../sass/_footer.scss */
 .site-footer ul, .site-footer li, .site-footer .row {
   margin-bottom: 0;
 }
