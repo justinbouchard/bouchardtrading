@@ -1202,48 +1202,41 @@ html, body {
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 36, ../sass/global/_base.scss */
-=======
 /* line 37, ../sass/global/_base.scss */
-.margin-top-sm {
-  margin-top: 10px;
-}
-
-/* line 41, ../sass/global/_base.scss */
-.margin-top-md {
-  margin-top: 20px;
-}
-
-/* line 45, ../sass/global/_base.scss */
-.margin-top-lg {
-  margin-top: 50px;
-}
-
-/* line 49, ../sass/global/_base.scss */
-.margin-bottom-sm {
-  margin-bottom: 10px;
-}
-
-/* line 53, ../sass/global/_base.scss */
-.margin-bottom-md {
-  margin-bottom: 20px;
-}
-
-/* line 57, ../sass/global/_base.scss */
-.margin-bottom-lg {
-  margin-bottom: 50px;
-}
-
-/* line 61, ../sass/global/_base.scss */
->>>>>>> origin/master
 .gray-back {
   background-color: rgba(155, 155, 155, 0.08);
 }
 
-<<<<<<< HEAD
-/* line 38, ../sass/global/_base.scss */
-=======
+/* line 39, ../sass/global/_base.scss */
+.margin-top-sm {
+  margin-top: 10px;
+}
+
+/* line 43, ../sass/global/_base.scss */
+.margin-top-md {
+  margin-top: 20px;
+}
+
+/* line 47, ../sass/global/_base.scss */
+.margin-top-lg {
+  margin-top: 50px;
+}
+
+/* line 51, ../sass/global/_base.scss */
+.margin-bottom-sm {
+  margin-bottom: 10px;
+}
+
+/* line 55, ../sass/global/_base.scss */
+.margin-bottom-md {
+  margin-bottom: 20px;
+}
+
+/* line 59, ../sass/global/_base.scss */
+.margin-bottom-lg {
+  margin-bottom: 50px;
+}
+
 /* line 63, ../sass/global/_base.scss */
 .border-left {
   border-left: 1px solid darkgrey;
@@ -1251,52 +1244,48 @@ html, body {
 }
 
 /* line 68, ../sass/global/_base.scss */
->>>>>>> origin/master
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweatger", Georgia, serif, "Georgia", serif;
+  font-family: "Merriweatger", Georgia, serif;
   font-weight: 400;
   color: #004981;
 }
 
-<<<<<<< HEAD
-/* line 44, ../sass/global/_base.scss */
+/* line 74, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 50, ../sass/global/_base.scss */
-=======
-/* line 74, ../sass/global/_base.scss */
+/* line 79, ../sass/global/_base.scss */
 h1 {
   font-size: 76px;
   line-height: 74px;
 }
 
-/* line 79, ../sass/global/_base.scss */
+/* line 84, ../sass/global/_base.scss */
 h2 {
   font-size: 54px;
 }
 
-/* line 83, ../sass/global/_base.scss */
+/* line 88, ../sass/global/_base.scss */
 h3 {
   font-size: 40px;
 }
 
-/* line 87, ../sass/global/_base.scss */
+/* line 92, ../sass/global/_base.scss */
 h4 {
   font-size: 36px;
   line-height: 40px;
 }
 
-/* line 92, ../sass/global/_base.scss */
+/* line 97, ../sass/global/_base.scss */
 h5 {
   font-size: 24px;
   color: darkslategrey;
 }
 
-/* line 97, ../sass/global/_base.scss */
+/* line 102, ../sass/global/_base.scss */
 h6 {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1304,61 +1293,32 @@ h6 {
   line-height: 22px;
 }
 
-/* line 106, ../sass/global/_base.scss */
+/* line 111, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* line 111, ../sass/global/_base.scss */
-.bold {
-  font-weight: 600;
-}
-
-/* line 116, ../sass/global/_base.scss */
-.row {
-  margin-bottom: 0;
-}
-
-/* line 123, ../sass/global/_base.scss */
->>>>>>> origin/master
+/* line 118, ../sass/global/_base.scss */
 section h1 {
   color: #004981;
 }
 
-<<<<<<< HEAD
-/* line 55, ../sass/global/_base.scss */
-=======
-/* line 128, ../sass/global/_base.scss */
->>>>>>> origin/master
+/* line 123, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-/* line 60, ../sass/global/_base.scss */
-.section-block p {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
 
-/* line 66, ../sass/global/_base.scss */
-=======
-
-/* line 135, ../sass/global/_base.scss */
->>>>>>> origin/master
+/* line 129, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
-/* line 73, ../sass/global/_base.scss */
-=======
-/* line 140, ../sass/global/_base.scss */
+/* line 134, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1366,16 +1326,13 @@ section h1 {
   line-height: 22px;
 }
 
-/* line 149, ../sass/global/_base.scss */
->>>>>>> origin/master
+/* line 143, ../sass/global/_base.scss */
 aside p {
   margin: 20px;
   padding: 10px;
 }
 
-<<<<<<< HEAD
-=======
-/* line 156, ../sass/global/_base.scss */
+/* line 149, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1386,7 +1343,6 @@ aside p {
   margin: 0 auto;
 }
 
->>>>>>> origin/master
 /* line 5, ../sass/_home.scss */
 .homepage-container .homepage-header {
   background-image: url(../img/header-img-gray.jpg);
@@ -1583,7 +1539,7 @@ aside p {
   padding: 10px 0px 0px;
 }
 /* line 11, ../sass/_footer.scss */
-.site-footer ol, .site-footer ul {
+.site-footer ol, .site-footer ul, .site-footer .row {
   margin-bottom: 0;
 }
 

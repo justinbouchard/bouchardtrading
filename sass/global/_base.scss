@@ -145,3 +145,13 @@ aside{
     padding:10px;
   }
 }
+
+.inner-header-img {
+  background-image: url(../img/inner-header.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
