@@ -29,38 +29,45 @@
       text-shadow: $dropshadow;
     }
   }
-}
 
-.intro{
- padding-bottom: 80px;  
-}
+  
+  //INTRODUCTION
+.intro{ padding-bottom: 80px; }
 
+
+  
+  //ABOUT BLOCK
 .about-content{
+
   p{
     font-size: 20px;
-    line-height: 26px;
+    line-height: 24px;
   }
 }
 
-.contenthead{
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
 
-
-
+  //NEWS SECTION
 .news-description{
-  margin-top: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
   
   h5{
     font-size: 24px;
   }
+  
+  h3{
+    font-family: $font-sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    }
+  }
+
   h3{
     font-family: $font-sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-
   }
 }
 
@@ -69,8 +76,10 @@
   width: 180px;
   height: auto;
   padding: 40px;
-  }
-      
+}
 
 
-
+.contenthead{
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
