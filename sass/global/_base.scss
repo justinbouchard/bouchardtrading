@@ -34,15 +34,24 @@ height: 20px;
   clear: both;
 }
 
-.margin-top-sm{
-  margin-top: 5px;
+.margin-bottom-sm{
+  margin-bottom: 10px;
 }
 
-.bottom-space{
+.margin-bottom-md{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-lg{
   margin-bottom: 50px;
 }
 
 .gray-back{ background-color: $background-gray;}
+
+.border-left{
+  border-left: 1px solid $dark-gray;
+  height: 100px;
+}
 
 h1, h2, h3, h4, h5, h6{
   font-family:$font-serif;
@@ -61,7 +70,6 @@ h2{
 
 h3{
   font-size: 40px;
-
 }
 
 h4{     
@@ -84,8 +92,9 @@ h6{
 
 
 p{ font-family: $font-sans;
-  font-size: 16px;
-  line-height: 20px }
+  font-size: 14px;
+  line-height: 1.5 }
+
 
 .bold{
   font-weight: 600;
@@ -109,10 +118,6 @@ section{
   margin-top: 40px;
   margin-bottom: 20px;
 
-  p{ font-family: $font-sans;
-  font-size: 16px;
-  line-height: 20px 
-  }
 }
 
 .new-section{
@@ -130,7 +135,6 @@ section{
 aside{
   
   p{
-
     margin: 20px;
     padding: 10px;
   }
@@ -143,5 +147,3 @@ aside{
   @include backgroundSize(cover);
   margin: 0 auto;
 }
-
-
