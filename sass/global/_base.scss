@@ -28,6 +28,7 @@ height: 30px;
   display: block;
   margin: 0 auto;
 }
+
 .block{
   display: block;
   clear: both;
@@ -35,15 +36,82 @@ height: 30px;
 
 .gray-back{ background-color: $background-gray; }
 
+.margin-top-sm{
+  margin-top: 10px;
+}
+
+.margin-top-md{
+  margin-top: 20px;
+}
+
+.margin-top-lg{
+  margin-top: 50px;
+}
+
+.margin-bottom-sm{
+  margin-bottom: 10px;
+}
+
+.margin-bottom-md{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-lg{
+  margin-bottom: 50px;
+}
+
+.border-left{
+  border-left: 1px solid $dark-gray;
+  height: 100px;
+}
+
 h1, h2, h3, h4, h5, h6{
-	font-family:$font-serif,"Georgia", serif;
-	font-weight: 400;
-	color: $dark-blue;
+ font-family:$font-serif;
+  font-weight: 400;
+  color: $dark-blue;
 }
 
 p{ font-family: $font-sans, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px }
+
+
+h1{
+  font-size:76px;
+  line-height: 74px;
+}
+
+h2{
+  font-size: 54px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+h4{     
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h5{
+  font-size: 24px;
+  color: $text-gray;
+}
+
+h6{
+  font-family: $font-sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+
+
+p{ font-family: $font-sans;
+  font-size: 14px;
+  line-height: 1.5 }
+
 
 section{
   
@@ -56,16 +124,18 @@ section{
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
-
-  p{ font-family: $font-sans, "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 20px 
-  }
 }
 
 .new-section{
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.news-header{
+  font-family: $font-sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 aside{
