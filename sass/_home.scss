@@ -10,18 +10,20 @@
 	  color: $white;
 	  border-top: solid $dark-blue 8px; 
     
-      h1{
+     h1{
         color: $white;
         font-size:76px;
         line-height: 74px;
-        text-shadow: $dropshadow;
-               }
+        @include textShadow;
+      }
+      
       h4{
         color:$white;
         font-size: 36px;
         line-height: 40px;
-        text-shadow: $dropshadow;
-        }
+        @include textShadow;
+      }
+     
      li{
       color: $white;
       text-shadow: $dropshadow;
@@ -30,50 +32,52 @@
 
   
   //INTRODUCTION
-  .intro{ padding-bottom: 80px; }
+.intro{ padding-bottom: 80px; }
+
 
   
   //ABOUT BLOCK
-  .about-content{
-  
-    p{
-      font-size: 20px;
-      line-height: 24px;
-    }
+.about-content{
+
+  p{
+    font-size: 20px;
+    line-height: 24px;
   }
+}
 
 
   //NEWS SECTION
-  .news-description{
-    margin-top: 45px;
-    
-    h5{
-      font-size: 24px;
-    }
-    
-    h3{
-      font-family: $font-sans;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 22px;
-
-      }
-    }
+.news-description{
+  margin-top: 30px;
+  margin-bottom: 45px;
   
-    h3{
-      font-family: $font-sans;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 22px;
-
-    .newsicon{
-      margin: 0 auto;
-      width: 180px;
-      height: auto;
-      padding: 40px;
+  h5{
+    font-size: 24px;
+  }
+  
+  h3{
+    font-family: $font-sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
     }
   }
+
+  h3{
+    font-family: $font-sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
 }
+
+.newsicon{
+  margin: 0 auto;
+  width: 180px;
+  height: auto;
+  padding: 40px;
+}
+
 
 .contenthead{
   margin-top: 10px;
