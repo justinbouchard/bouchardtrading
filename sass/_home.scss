@@ -29,6 +29,7 @@
       text-shadow: $dropshadow;
     }
   }
+}
 
   
   //INTRODUCTION
@@ -50,26 +51,11 @@
 .news-description{
   margin-top: 30px;
   margin-bottom: 45px;
-  
-  h5{
-    font-size: 24px;
-  }
-  
-  h3{
-    font-family: $font-sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 22px;
-    }
-  }
-
-  h3{
-    font-family: $font-sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-  }
 }
+  
+
+
+
 
 .newsicon{
   margin: 0 auto;
@@ -77,7 +63,6 @@
   height: auto;
   padding: 40px;
 }
-
 
 .contenthead{
   margin-top: 10px;
