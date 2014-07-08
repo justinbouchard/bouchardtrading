@@ -28,16 +28,42 @@ height: 20px;
   display: block;
   margin: 0 auto;
 }
+
 .block{
   display: block;
   clear: both;
 }
 
-.bottom-space{
+.margin-top-sm{
+  margin-top: 10px;
+}
+
+.margin-top-md{
+  margin-top: 20px;
+}
+
+.margin-top-lg{
+  margin-top: 50px;
+}
+
+.margin-bottom-sm{
+  margin-bottom: 10px;
+}
+
+.margin-bottom-md{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-lg{
   margin-bottom: 50px;
 }
 
 .gray-back{ background-color: $background-gray;}
+
+.border-left{
+  border-left: 1px solid $dark-gray;
+  height: 100px;
+}
 
 h1, h2, h3, h4, h5, h6{
   font-family:$font-serif;
@@ -56,7 +82,6 @@ h2{
 
 h3{
   font-size: 40px;
-
 }
 
 h4{     
@@ -69,11 +94,19 @@ h5{
   color: $text-gray;
 }
 
+h6{
+  font-family: $font-sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
 
 
 p{ font-family: $font-sans;
-  font-size: 16px;
-  line-height: 20px }
+  font-size: 14px;
+  line-height: 1.5 }
+
 
 .bold{
   font-weight: 600;
@@ -97,10 +130,6 @@ section{
   margin-top: 40px;
   margin-bottom: 20px;
 
-  p{ font-family: $font-sans;
-  font-size: 16px;
-  line-height: 20px 
-  }
 }
 
 .new-section{
@@ -108,10 +137,16 @@ section{
   padding-bottom: 20px;
 }
 
+.news-header{
+  font-family: $font-sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
 aside{
   
   p{
-
     margin: 20px;
     padding: 10px;
   }
