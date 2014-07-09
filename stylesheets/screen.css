@@ -1257,35 +1257,35 @@ p {
   line-height: 20px;
 }
 
-/* line 79, ../sass/global/_base.scss */
+/* line 80, ../sass/global/_base.scss */
 h1 {
   font-size: 76px;
   line-height: 74px;
 }
 
-/* line 84, ../sass/global/_base.scss */
+/* line 85, ../sass/global/_base.scss */
 h2 {
   font-size: 54px;
 }
 
-/* line 88, ../sass/global/_base.scss */
+/* line 89, ../sass/global/_base.scss */
 h3 {
   font-size: 40px;
 }
 
-/* line 92, ../sass/global/_base.scss */
+/* line 93, ../sass/global/_base.scss */
 h4 {
   font-size: 36px;
   line-height: 40px;
 }
 
-/* line 97, ../sass/global/_base.scss */
+/* line 98, ../sass/global/_base.scss */
 h5 {
   font-size: 24px;
   color: darkslategrey;
 }
 
-/* line 102, ../sass/global/_base.scss */
+/* line 103, ../sass/global/_base.scss */
 h6 {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1293,32 +1293,27 @@ h6 {
   line-height: 22px;
 }
 
-/* line 111, ../sass/global/_base.scss */
+/* line 110, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* line 118, ../sass/global/_base.scss */
-section h1 {
-  color: #004981;
-}
-
-/* line 123, ../sass/global/_base.scss */
+/* line 115, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 129, ../sass/global/_base.scss */
+/* line 121, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 134, ../sass/global/_base.scss */
+/* line 126, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1326,13 +1321,13 @@ section h1 {
   line-height: 22px;
 }
 
-/* line 143, ../sass/global/_base.scss */
-aside p {
+/* line 133, ../sass/global/_base.scss */
+p.aside {
   margin: 20px;
   padding: 10px;
 }
 
-/* line 149, ../sass/global/_base.scss */
+/* line 138, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1550,16 +1545,19 @@ aside p {
 
 /* line 1, ../sass/_careers.scss */
 .job {
-  text-indent: 20px;
+  text-indent: 10px;
 }
 
 /* line 5, ../sass/_careers.scss */
 .joblist {
-  margin: 10px 0px;
-  text-indent: 20px;
+  text-indent: 10px;
+}
+/* line 7, ../sass/_careers.scss */
+.joblist li {
+  margin: 5px;
 }
 
-/* line 10, ../sass/_careers.scss */
+/* line 12, ../sass/_careers.scss */
 p.job-contact {
   font-size: 14px;
 }
