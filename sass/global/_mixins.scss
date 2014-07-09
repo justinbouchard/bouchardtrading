@@ -34,3 +34,16 @@
 		-o-transition: $range 0.1s $ease;
 		transition: $range $time $ease;
 	}
+
+	@mixin marginTop($value){
+		margin-top:$value;
+	}
+
+	@mixin marginBottom($value){
+		margin-bottom: $value;
+	}
+
+	@mixin border($size:1px, $style:solid, $color:$dark-gray){
+			border: $size $style $color;
+	}
+;
