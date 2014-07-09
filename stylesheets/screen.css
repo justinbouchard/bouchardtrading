@@ -1301,19 +1301,30 @@ p {
 }
 
 /* line 115, ../sass/global/_base.scss */
+.mainheader {
+  color: white;
+  font-size: 160px;
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 125px;
+}
+
+/* line 123, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 121, ../sass/global/_base.scss */
+/* line 129, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 126, ../sass/global/_base.scss */
+/* line 134, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1321,13 +1332,13 @@ p {
   line-height: 22px;
 }
 
-/* line 133, ../sass/global/_base.scss */
+/* line 141, ../sass/global/_base.scss */
 p.aside {
   margin: 20px;
   padding: 10px;
 }
 
-/* line 138, ../sass/global/_base.scss */
+/* line 146, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1336,6 +1347,36 @@ p.aside {
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
+}
+
+/* line 156, ../sass/global/_base.scss */
+.inner-header-img2 {
+  background-image: url(../img/inner-header2.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+/* line 166, ../sass/global/_base.scss */
+.inner-header-img3 {
+  background-image: url(../img/inner-header3.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+/* line 177, ../sass/global/_base.scss */
+hr.vertical {
+  border: 0;
+  height: 100px;
+  width: 1px;
+  background: darkgrey;
 }
 
 /* line 5, ../sass/_home.scss */
@@ -1550,7 +1591,7 @@ p.aside {
 
 /* line 5, ../sass/_careers.scss */
 .joblist {
-  text-indent: 10px;
+  text-indent: 5px;
 }
 /* line 7, ../sass/_careers.scss */
 .joblist li {
@@ -1560,6 +1601,14 @@ p.aside {
 /* line 12, ../sass/_careers.scss */
 p.job-contact {
   font-size: 14px;
+}
+
+/* line 14, ../sass/_careers.scss */
+.job-header {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /* line 1, ../sass/_about.scss */

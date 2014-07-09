@@ -112,6 +112,14 @@ p{ font-family: $font-sans;
   line-height: 1.5 
 }
 
+.mainheader{
+  color: $white;
+  font-size:160px;
+  @include textShadow;
+  text-align: center;
+  padding-top: 125px;
+}
+
 .section-block{
   display: block;
   margin-top: 60px;
@@ -143,4 +151,32 @@ p.aside{
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
+}
+
+.inner-header-img2 {
+  background-image: url(../img/inner-header2.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.inner-header-img3 {
+  background-image: url(../img/inner-header3.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+hr.vertical {
+  border : 0;
+  height : 100px; 
+  width : 1px;
+  background: $dark-gray;
 }
