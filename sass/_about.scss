@@ -1,8 +1,7 @@
-.headshot{
-	background-image: url('http://placehold.it/200x350');
-	height: 350px;
-	width: 100%;
-	@include backgroundSize(cover);
+img.headshot{
+	height: auto;
+	width: 96%;
+
 }
 
 .af-logo{

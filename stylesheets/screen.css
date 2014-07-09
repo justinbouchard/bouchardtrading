@@ -1238,54 +1238,59 @@ html, body {
 }
 
 /* line 63, ../sass/global/_base.scss */
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+/* line 67, ../sass/global/_base.scss */
 .border-left {
   border-left: 1px solid darkgrey;
   height: 100px;
 }
 
-/* line 68, ../sass/global/_base.scss */
+/* line 72, ../sass/global/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweatger", Georgia, serif;
   font-weight: 400;
   color: #004981;
 }
 
-/* line 74, ../sass/global/_base.scss */
+/* line 78, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif, "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 80, ../sass/global/_base.scss */
+/* line 84, ../sass/global/_base.scss */
 h1 {
   font-size: 76px;
   line-height: 74px;
 }
 
-/* line 85, ../sass/global/_base.scss */
+/* line 89, ../sass/global/_base.scss */
 h2 {
   font-size: 54px;
 }
 
-/* line 89, ../sass/global/_base.scss */
+/* line 93, ../sass/global/_base.scss */
 h3 {
   font-size: 40px;
 }
 
-/* line 93, ../sass/global/_base.scss */
+/* line 97, ../sass/global/_base.scss */
 h4 {
   font-size: 36px;
   line-height: 40px;
 }
 
-/* line 98, ../sass/global/_base.scss */
+/* line 102, ../sass/global/_base.scss */
 h5 {
   font-size: 24px;
   color: darkslategrey;
 }
 
-/* line 103, ../sass/global/_base.scss */
+/* line 107, ../sass/global/_base.scss */
 h6 {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1293,14 +1298,14 @@ h6 {
   line-height: 22px;
 }
 
-/* line 110, ../sass/global/_base.scss */
+/* line 114, ../sass/global/_base.scss */
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* line 115, ../sass/global/_base.scss */
+/* line 119, ../sass/global/_base.scss */
 .mainheader {
   color: white;
   font-size: 160px;
@@ -1311,20 +1316,20 @@ p {
   padding-top: 125px;
 }
 
-/* line 123, ../sass/global/_base.scss */
+/* line 127, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 129, ../sass/global/_base.scss */
+/* line 133, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 134, ../sass/global/_base.scss */
+/* line 138, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1332,13 +1337,14 @@ p {
   line-height: 22px;
 }
 
-/* line 141, ../sass/global/_base.scss */
+/* line 145, ../sass/global/_base.scss */
 p.aside {
-  margin: 20px;
-  padding: 10px;
+  margin: 10px;
+  margin-top: 0;
+  padding: 0px 10px 10px 10px;
 }
 
-/* line 146, ../sass/global/_base.scss */
+/* line 151, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1349,7 +1355,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 156, ../sass/global/_base.scss */
+/* line 161, ../sass/global/_base.scss */
 .inner-header-img2 {
   background-image: url(../img/inner-header2.jpg);
   height: 300px;
@@ -1360,7 +1366,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 166, ../sass/global/_base.scss */
+/* line 171, ../sass/global/_base.scss */
 .inner-header-img3 {
   background-image: url(../img/inner-header3.jpg);
   height: 300px;
@@ -1371,7 +1377,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 177, ../sass/global/_base.scss */
+/* line 182, ../sass/global/_base.scss */
 hr.vertical {
   border: 0;
   height: 100px;
@@ -1579,6 +1585,34 @@ hr.vertical {
   margin-bottom: 0;
 }
 
+/* line 16, ../sass/_footer.scss */
+footer ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* line 21, ../sass/_footer.scss */
+.footer-nav a {
+  display: inline;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+/* line 27, ../sass/_footer.scss */
+.footer-nav li {
+  display: inline;
+  margin-right: 5px;
+  text-decoration: none;
+}
+/* line 31, ../sass/_footer.scss */
+.footer-nav li:hover {
+  opacity: 0.6;
+}
+/* line 33, ../sass/_footer.scss */
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+
 /* line 1, ../sass/_contact.scss */
 .map {
   height: 300px;
@@ -1612,17 +1646,12 @@ p.job-contact {
 }
 
 /* line 1, ../sass/_about.scss */
-.headshot {
-  background-image: url("http://placehold.it/200x350");
-  height: 350px;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+img.headshot {
+  height: auto;
+  width: 96%;
 }
 
-/* line 8, ../sass/_about.scss */
+/* line 7, ../sass/_about.scss */
 .af-logo {
   background-image: url("../img/af_logo.png");
   -webkit-background-size: cover;

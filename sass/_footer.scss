@@ -13,5 +13,23 @@
     }
 }
 
+footer ul{
+  list-style-type: none;
+  text-decoration: none;
+}
 
+.footer-nav a{
+  display: inline;
+  margin-right:5px;
+  text-decoration: none;
+}
+
+.footer-nav li{
+  display: inline;
+  margin-right:5px;
+  text-decoration: none;
+    &:hover{ opacity: 0.6; }
+
+    &:last-child{ margin-right: 0;}
+  }
 
