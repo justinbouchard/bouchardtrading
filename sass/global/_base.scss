@@ -124,6 +124,13 @@ p{ font-family: $font-sans;
   padding-top: 125px;
 }
 
+.sans-header{
+  font-family: $font-sans;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .section-block{
   display: block;
   margin-top: 60px;

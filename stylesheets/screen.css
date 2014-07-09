@@ -1204,7 +1204,7 @@ html, body {
 
 /* line 37, ../sass/global/_base.scss */
 .gray-back {
-  background-color: rgba(155, 155, 155, 0.08);
+  background-color: whitesmoke;
 }
 
 /* line 39, ../sass/global/_base.scss */
@@ -1317,19 +1317,27 @@ p {
 }
 
 /* line 127, ../sass/global/_base.scss */
+.sans-header {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* line 134, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 133, ../sass/global/_base.scss */
+/* line 140, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 138, ../sass/global/_base.scss */
+/* line 145, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1337,14 +1345,14 @@ p {
   line-height: 22px;
 }
 
-/* line 145, ../sass/global/_base.scss */
+/* line 152, ../sass/global/_base.scss */
 p.aside {
   margin: 10px;
   margin-top: 0;
   padding: 0px 10px 10px 10px;
 }
 
-/* line 151, ../sass/global/_base.scss */
+/* line 158, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1355,7 +1363,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 161, ../sass/global/_base.scss */
+/* line 168, ../sass/global/_base.scss */
 .inner-header-img2 {
   background-image: url(../img/inner-header2.jpg);
   height: 300px;
@@ -1366,7 +1374,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 171, ../sass/global/_base.scss */
+/* line 178, ../sass/global/_base.scss */
 .inner-header-img3 {
   background-image: url(../img/inner-header3.jpg);
   height: 300px;
@@ -1377,7 +1385,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 182, ../sass/global/_base.scss */
+/* line 189, ../sass/global/_base.scss */
 hr.vertical {
   border: 0;
   height: 100px;
@@ -1615,7 +1623,9 @@ footer ul {
 
 /* line 1, ../sass/_contact.scss */
 .map {
-  height: 300px;
+  width: 96%;
+  height: auto;
+  border: 4px solid #E3E3E3;
 }
 
 /* line 1, ../sass/_careers.scss */
