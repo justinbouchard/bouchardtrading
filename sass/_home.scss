@@ -4,7 +4,7 @@
 
 	.homepage-header {
 		background-image: url(../img/header-img-gray.jpg);
-		max-height: 600px;
+		max-height: 700px;
 		@include backgroundSize(cover);
 	  margin: 0 auto;
 	  color: $white;

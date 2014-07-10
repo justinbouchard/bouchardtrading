@@ -1324,7 +1324,7 @@ p {
 /* line 131, ../sass/global/_base.scss */
 .mainheader2 {
   color: white;
-  font-size: 160px;
+  font-size: 110px;
   -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -1415,7 +1415,7 @@ hr.vertical {
 /* line 5, ../sass/_home.scss */
 .homepage-container .homepage-header {
   background-image: url(../img/header-img-gray.jpg);
-  max-height: 600px;
+  max-height: 700px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
