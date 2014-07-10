@@ -116,12 +116,25 @@ p{ font-family: $font-sans;
   line-height: 1.5 
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
 .mainheader{
   color: $white;
   font-size:160px;
   @include textShadow;
   text-align: center;
   padding-top: 125px;
+}
+
+.mainheader2{
+  color: $white;
+  font-size:160px;
+  @include textShadow;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .sans-header{
@@ -191,4 +204,6 @@ hr.vertical {
   height : 100px; 
   width : 1px;
   background: $dark-gray;
+  position: relative;
+  margin-left: 15px;
 }

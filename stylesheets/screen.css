@@ -1306,6 +1306,11 @@ p {
 }
 
 /* line 119, ../sass/global/_base.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 123, ../sass/global/_base.scss */
 .mainheader {
   color: white;
   font-size: 160px;
@@ -1316,7 +1321,19 @@ p {
   padding-top: 125px;
 }
 
-/* line 127, ../sass/global/_base.scss */
+/* line 131, ../sass/global/_base.scss */
+.mainheader2 {
+  color: white;
+  font-size: 160px;
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* line 140, ../sass/global/_base.scss */
 .sans-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
@@ -1324,20 +1341,20 @@ p {
   font-weight: 600;
 }
 
-/* line 134, ../sass/global/_base.scss */
+/* line 147, ../sass/global/_base.scss */
 .section-block {
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-/* line 140, ../sass/global/_base.scss */
+/* line 153, ../sass/global/_base.scss */
 .new-section {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-/* line 145, ../sass/global/_base.scss */
+/* line 158, ../sass/global/_base.scss */
 .news-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
@@ -1345,14 +1362,14 @@ p {
   line-height: 22px;
 }
 
-/* line 152, ../sass/global/_base.scss */
+/* line 165, ../sass/global/_base.scss */
 p.aside {
   margin: 10px;
   margin-top: 0;
   padding: 0px 10px 10px 10px;
 }
 
-/* line 158, ../sass/global/_base.scss */
+/* line 171, ../sass/global/_base.scss */
 .inner-header-img {
   background-image: url(../img/inner-header.jpg);
   height: 300px;
@@ -1363,7 +1380,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 168, ../sass/global/_base.scss */
+/* line 181, ../sass/global/_base.scss */
 .inner-header-img2 {
   background-image: url(../img/inner-header2.jpg);
   height: 300px;
@@ -1374,7 +1391,7 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 178, ../sass/global/_base.scss */
+/* line 191, ../sass/global/_base.scss */
 .inner-header-img3 {
   background-image: url(../img/inner-header3.jpg);
   height: 300px;
@@ -1385,12 +1402,14 @@ p.aside {
   margin: 0 auto;
 }
 
-/* line 189, ../sass/global/_base.scss */
+/* line 202, ../sass/global/_base.scss */
 hr.vertical {
   border: 0;
   height: 100px;
   width: 1px;
   background: darkgrey;
+  position: relative;
+  margin-left: 15px;
 }
 
 /* line 5, ../sass/_home.scss */
@@ -1643,15 +1662,80 @@ footer ul {
 }
 
 /* line 12, ../sass/_careers.scss */
+.job-box {
+  background: whitesmoke;
+  border-radius: 2px;
+}
+
+/* line 17, ../sass/_careers.scss */
 p.job-contact {
   font-size: 14px;
 }
 
-/* line 14, ../sass/_careers.scss */
+/* line 19, ../sass/_careers.scss */
 .job-header {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* line 26, ../sass/_careers.scss */
+.aside-head {
+  text-indent: 20px;
+}
+
+/* line 33, ../sass/_careers.scss */
+.inner-page-container .inner-header {
+  background-image: url(../img/header-img-gray.jpg);
+  max-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  color: white;
+  border-top: solid #004981 8px;
+}
+/* line 41, ../sass/_careers.scss */
+.inner-page-container .inner-header h1 {
+  color: white;
+  font-size: 76px;
+  line-height: 74px;
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 48, ../sass/_careers.scss */
+.inner-page-container .inner-header h4 {
+  color: white;
+  font-size: 36px;
+  line-height: 40px;
+  -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 55, ../sass/_careers.scss */
+.inner-page-container .inner-header li {
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* line 64, ../sass/_careers.scss */
+.apply-btn {
+  font: "Open Sans", "Helvetica Neue", sans-serif;
+  background: #0083c1;
+  color: white;
+  width: 100px;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 73, ../sass/_careers.scss */
+.apply-btn:hover {
+  background: #004981;
+  color: white;
   font-weight: 600;
 }
 

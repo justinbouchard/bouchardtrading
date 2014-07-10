@@ -9,6 +9,11 @@
 	}
 }
 
+.job-box{
+	background: $background-gray;
+	border-radius: 2px;
+}
+
 p.job-contact{font-size: 14px;}
 
 .job-header{
@@ -16,5 +21,58 @@ p.job-contact{font-size: 14px;}
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.aside-head{
+	text-indent:20px;
+}
+
+
+.inner-page-container{
+
+	.inner-header {
+		background-image: url(../img/header-img-gray.jpg);
+		max-height: 600px;
+		@include backgroundSize(cover);
+	  margin: 0 auto;
+	  color: $white;
+	  border-top: solid $dark-blue 8px; 
+    
+     h1{
+        color: $white;
+        font-size:76px;
+        line-height: 74px;
+        @include textShadow;
+      }
+      
+      h4{
+        color:$white;
+        font-size: 36px;
+        line-height: 40px;
+        @include textShadow;
+      }
+     
+     li{
+      color: $white;
+      text-shadow: $dropshadow;
+    }
+  }
+}
+
+
+
+.apply-btn{
+		font: $font-sans;
+    background: $light-blue;
+    color: $white;
+    width: 100px;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.apply-btn:hover{
+    background: $dark-blue;
+    color: $white;
+    font-weight: 600;   
 }
 
