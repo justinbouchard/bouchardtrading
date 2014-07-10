@@ -60,6 +60,10 @@ height: 30px;
    @include marginBottom(50px);
 }
 
+.padding-bottom{
+  padding-bottom:20px;
+}
+
 .border-left{
   border-left: 1px solid $dark-gray;
   height: 100px;
@@ -112,6 +116,21 @@ p{ font-family: $font-sans;
   line-height: 1.5 
 }
 
+.mainheader{
+  color: $white;
+  font-size:160px;
+  @include textShadow;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.sans-header{
+  font-family: $font-sans;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .section-block{
   display: block;
   margin-top: 60px;
@@ -131,8 +150,9 @@ p{ font-family: $font-sans;
 }
  
 p.aside{
-  margin: 20px;
-  padding:10px;
+  margin: 10px;
+  margin-top: 0;
+  padding:0px 10px 10px 10px;
 }
 
 .inner-header-img {
@@ -143,4 +163,32 @@ p.aside{
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
+}
+
+.inner-header-img2 {
+  background-image: url(../img/inner-header2.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.inner-header-img3 {
+  background-image: url(../img/inner-header3.jpg);
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+hr.vertical {
+  border : 0;
+  height : 100px; 
+  width : 1px;
+  background: $dark-gray;
 }
