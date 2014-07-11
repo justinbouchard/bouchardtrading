@@ -13,6 +13,10 @@
 	.left{
 		float: left;
 
+		@media screen and (max-width: $width-md){
+			float: none;
+		}
+
 		.logo-home{
 			background: $transparent url('../img/logo-white.png') no-repeat left top;
 			height: 145px;
@@ -33,10 +37,11 @@
 		float: right;
 		margin-top: 80px;
 		@media screen and (max-width: $width-md){
+			float: none;
 			@include clearfix;
 			margin-top: 0px;
 			margin: 0 auto;
-			width: 90%;
+			
 		}
 
 		a{ text-decoration: none; }
@@ -50,7 +55,11 @@
 			@include transition(all, 0.3s, ease-in);
 			padding: 0 1.3em; 
 			@media screen and (max-width: $width-md){
-			font-size: 14px;
+			font-size: 20px;
+			list-style: none;
+		}
+		@media screen and (max-width: $width-sm){
+			font-size: 16px;
 			list-style: none;
 		}
 
@@ -60,4 +69,9 @@
 		}
 	}
 }
+}
+
+.nav-small{
+	@media screen and (max-width: $width-md){
+		text-align: center;}
 }

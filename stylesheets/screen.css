@@ -1570,7 +1570,13 @@ hr.vertical {
 .homepage-header nav .left {
   float: left;
 }
-/* line 16, ../sass/_navigation.scss */
+@media screen and (max-width: 768px) {
+  /* line 13, ../sass/_navigation.scss */
+  .homepage-header nav .left {
+    float: none;
+  }
+}
+/* line 20, ../sass/_navigation.scss */
 .homepage-header nav .left .logo-home {
   background: transparent url("../img/logo-white.png") no-repeat left top;
   height: 145px;
@@ -1578,7 +1584,7 @@ hr.vertical {
   width: 180px;
 }
 @media screen and (max-width: 480px) {
-  /* line 16, ../sass/_navigation.scss */
+  /* line 20, ../sass/_navigation.scss */
   .homepage-header nav .left .logo-home {
     margin: 0 auto;
     background-position: center;
@@ -1590,17 +1596,17 @@ hr.vertical {
     clear: both;
   }
 }
-/* line 32, ../sass/_navigation.scss */
+/* line 36, ../sass/_navigation.scss */
 .homepage-header nav .right {
   float: right;
   margin-top: 80px;
 }
 @media screen and (max-width: 768px) {
-  /* line 32, ../sass/_navigation.scss */
+  /* line 36, ../sass/_navigation.scss */
   .homepage-header nav .right {
+    float: none;
     margin-top: 0px;
     margin: 0 auto;
-    width: 90%;
   }
   /* line 53, ../sass/global/_mixins.scss */
   .homepage-header nav .right:after {
@@ -1609,11 +1615,11 @@ hr.vertical {
     clear: both;
   }
 }
-/* line 42, ../sass/_navigation.scss */
+/* line 47, ../sass/_navigation.scss */
 .homepage-header nav .right a {
   text-decoration: none;
 }
-/* line 44, ../sass/_navigation.scss */
+/* line 49, ../sass/_navigation.scss */
 .homepage-header nav .right a > li {
   display: inline;
   font-family: "Merriweatger", Georgia, serif;
@@ -1629,19 +1635,33 @@ hr.vertical {
   padding: 0 1.3em;
 }
 @media screen and (max-width: 768px) {
-  /* line 44, ../sass/_navigation.scss */
+  /* line 49, ../sass/_navigation.scss */
   .homepage-header nav .right a > li {
-    font-size: 14px;
+    font-size: 20px;
     list-style: none;
   }
 }
-/* line 57, ../sass/_navigation.scss */
+@media screen and (max-width: 480px) {
+  /* line 49, ../sass/_navigation.scss */
+  .homepage-header nav .right a > li {
+    font-size: 16px;
+    list-style: none;
+  }
+}
+/* line 66, ../sass/_navigation.scss */
 .homepage-header nav .right a > li:hover {
   opacity: 0.6;
 }
-/* line 59, ../sass/_navigation.scss */
+/* line 68, ../sass/_navigation.scss */
 .homepage-header nav .right a > li:last-child {
   padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 74, ../sass/_navigation.scss */
+  .nav-small {
+    text-align: center;
+  }
 }
 
 /* line 3, ../sass/_footer.scss */
