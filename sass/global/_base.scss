@@ -34,6 +34,23 @@ height: 30px;
   clear: both;
 }
 
+//CLEARFIX
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/**
+ * For IE 6/7 (trigger hasLayout)
+ */
+.cf {
+    *zoom:1;
+}
+
+
 .gray-back{ background-color: $background-gray; }
 
 .margin-top-sm{
@@ -88,6 +105,7 @@ h1{
 
 h2{
   font-size: 54px;
+  line-height: 1.1;
 }
 
 h3{
@@ -135,6 +153,22 @@ p{ font-family: $font-sans;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
+  @media screen and (max-width: $width-md){
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @media screen and (max-width: $width-sm){
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+  @media screen and (max-width: $width-xsm){
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  }
+
 }
 
 .sans-header{
@@ -148,6 +182,9 @@ p{ font-family: $font-sans;
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
+  @media screen and (max-width: $width-sm){
+    margin-top: 20px;
+    }
 }
 
 .new-section{
@@ -197,6 +234,12 @@ hr.vertical {
   clip: rect(0 0 0 0); 
   height: 1px; width: 1px; 
   margin: -1px; padding: 0; border: 0; 
+  }
+}
+
+.hide{
+  @media screen and (max-width: $width-sm){
+  display: none;
   }
 }
 
