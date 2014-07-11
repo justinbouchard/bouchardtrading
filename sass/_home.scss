@@ -4,7 +4,7 @@
 
 	.homepage-header {
 		background-image: url(../img/header-img-gray.jpg);
-		max-height: 600px;
+		max-height: 700px;
 		@include backgroundSize(cover);
 	  margin: 0 auto;
 	  color: $white;
@@ -15,6 +15,12 @@
         font-size:76px;
         line-height: 74px;
         @include textShadow;
+        @media screen and (max-width: $width-md){
+          font-size: 46px;
+          line-height: 1.1;
+          text-align: center;
+          font-weight: 700;
+        }
       }
       
       h4{
@@ -33,16 +39,23 @@
 
   
   //INTRODUCTION
-.intro{ padding-bottom: 80px; }
+.intro{ padding-bottom: 80px;
+  @media screen and (max-width: $width-sm){
+    padding-bottom: 20px;
+    font-size: 30px;
+  } 
+}
 
-
-  
   //ABOUT BLOCK
 .about-content{
 
   p{
     font-size: 20px;
     line-height: 24px;
+    @media screen and (max-width: $width-sm){
+      font-size: 16px;
+      line-height: 1.5;
+    }
   }
 }
 
@@ -54,9 +67,6 @@
 }
   
 
-
-
-
 .newsicon{
   margin: 0 auto;
   width: 180px;
@@ -67,4 +77,8 @@
 .contenthead{
   margin-top: 10px;
   margin-bottom: 60px;
+  @media screen and (max-width: $width-sm){
+    margin-bottom: 20px;
+  }
+  
 }

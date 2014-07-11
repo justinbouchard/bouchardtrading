@@ -34,6 +34,23 @@ height: 30px;
   clear: both;
 }
 
+//CLEARFIX
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/**
+ * For IE 6/7 (trigger hasLayout)
+ */
+.cf {
+    *zoom:1;
+}
+
+
 .gray-back{ background-color: $background-gray; }
 
 .margin-top-sm{
@@ -88,6 +105,7 @@ h1{
 
 h2{
   font-size: 54px;
+  line-height: 1.1;
 }
 
 h3{
@@ -116,12 +134,41 @@ p{ font-family: $font-sans;
   line-height: 1.5 
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
 .mainheader{
   color: $white;
   font-size:160px;
   @include textShadow;
   text-align: center;
   padding-top: 125px;
+}
+
+.mainheader2{
+  color: $white;
+  font-size:110px;
+  @include textShadow;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  @media screen and (max-width: $width-md){
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @media screen and (max-width: $width-sm){
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+  @media screen and (max-width: $width-xsm){
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  }
+
 }
 
 .sans-header{
@@ -135,6 +182,9 @@ p{ font-family: $font-sans;
   display: block;
   margin-top: 60px;
   margin-bottom: 20px;
+  @media screen and (max-width: $width-sm){
+    margin-top: 20px;
+    }
 }
 
 .new-section{
@@ -165,30 +215,33 @@ p.aside{
   margin: 0 auto;
 }
 
-.inner-header-img2 {
-  background-image: url(../img/inner-header2.jpg);
-  height: 300px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0 auto;
-}
-
-.inner-header-img3 {
-  background-image: url(../img/inner-header3.jpg);
-  height: 300px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0 auto;
-}
-
 
 hr.vertical {
   border : 0;
   height : 100px; 
   width : 1px;
   background: $dark-gray;
+  position: relative;
+  margin-left: 15px;
 }
+
+//RESPONSIVE SECTION
+
+.visuallyhidden { 
+  @media screen and (max-width: $width-md){
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+  }
+}
+
+.hide{
+  @media screen and (max-width: $width-sm){
+  display: none;
+  }
+}
+
+
+
