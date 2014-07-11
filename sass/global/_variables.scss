@@ -2,32 +2,37 @@
 
 	//COLORS
 
-		//BLACK
-		$black: #000000;
+//BLACK
+$black: #000000;
 
-		//BLUE
-		$light-blue: #0083C1;
-		$dark-blue: #004981;
+//BLUE
+$light-blue: #0083C1;
+$dark-blue: #004981;
 
-		//Gray
-		$background-gray: #F5F5F5;
-		$text-gray: #2F4F4F;
-		$dark-gray: #A9A9A9;
+//Gray
+$background-gray: #F5F5F5;
+$text-gray: #2F4F4F;
+$dark-gray: #A9A9A9;
 
-		//WHITE
-		$white: #fff;
+//WHITE
+$white: #fff;
 
-		//TRANSPARENT
-		$transparent: transparent; 
+//TRANSPARENT
+$transparent: transparent; 
 
 
-		//FONTS
-		$font-serif: "Merriweatger", Georgia, serif;
-		$font-sans: "Open Sans", "Helvetica Neue", sans-serif;
+//FONTS
+$font-serif: "Merriweatger", Georgia, serif;
+$font-sans: "Open Sans", "Helvetica Neue", sans-serif;
 
-		//TEXT SIZES
-		$main-font-size: 16px;
+//TEXT SIZES
+$main-font-size: 16px;
 
-		$bold: 600;
+$bold: 600;
 
-		$dropshadow: 2px 4px 3px rgba(0,0,0,0.5);
+$dropshadow: 2px 4px 3px rgba(0,0,0,0.5);
+
+//RESPONSIVE
+$width-sm: 480px;
+
+$width-md: 768px;
