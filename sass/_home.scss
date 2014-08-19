@@ -1,5 +1,5 @@
 //BOUCHARD TRADE HOMEPAGE STYLES
-	
+
 .homepage-container{
 
 	.homepage-header {
@@ -8,8 +8,8 @@
 		@include backgroundSize(cover);
 	  margin: 0 auto;
 	  color: $white;
-	  border-top: solid $dark-blue 8px; 
-    
+	  border-top: solid $dark-blue 8px;
+
      h1{
         color: $white;
         font-size:76px;
@@ -22,14 +22,14 @@
           font-weight: 700;
         }
       }
-      
+
       h4{
         color:$white;
         font-size: 36px;
         line-height: 40px;
         @include textShadow;
       }
-     
+
      li{
       color: $white;
       text-shadow: $dropshadow;
@@ -37,13 +37,56 @@
   }
 }
 
-  
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.homepage-container {
+  height: 100%;
+  .home-wrapper {
+    background: url(../img/header-img-gray.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    padding-bottom: 0px;
+    img.home-logo {
+      margin: 0px auto;
+      display: block;
+      width: 715px;
+      @media screen and (max-width: $width-md) {
+        width: 450px;
+      }
+      @media screen and (max-width: $width-sm) {
+        width: 290px;
+      }
+    }
+  }
+  .home-header {
+    li{
+      color: $white;
+      text-shadow: $dropshadow;
+    }
+  }
+}
+
+
   //INTRODUCTION
 .intro{ padding-bottom: 80px;
   @media screen and (max-width: $width-sm){
     padding-bottom: 20px;
     font-size: 30px;
-  } 
+  }
 }
 
   //ABOUT BLOCK
@@ -65,7 +108,7 @@
   margin-top: 30px;
   margin-bottom: 45px;
 }
-  
+
 
 .newsicon{
   margin: 0 auto;
@@ -80,5 +123,5 @@
   @media screen and (max-width: $width-sm){
     margin-bottom: 20px;
   }
-  
+
 }

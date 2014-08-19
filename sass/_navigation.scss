@@ -1,15 +1,15 @@
 //BOUCHARD TRADE NAVIGATION STYLES
 
 	//HOMEPAGE
-.homepage-header{
+.homepage-header, .home-header {
 
 	nav{ padding-top: 25px;
-	
 
-	li{ 
+
+	li{
 		display: inline-block;
 	}
-			
+
 	.left{
 		float: left;
 
@@ -33,15 +33,16 @@
 		}
 	}
 
-	.right{
-		float: right;
-		margin-top: 80px;
+	.main-nav {
+		margin-top: 50px;
+		text-align: center;
 		@media screen and (max-width: $width-md){
 			float: none;
 			@include clearfix;
 			margin-top: 0px;
 			margin: 0 auto;
-			
+			text-align: center;
+
 		}
 
 		a{ text-decoration: none; }
@@ -51,10 +52,10 @@
 			font-family: $font-serif;
 			font-size: 24px;
 			font-weight: 700;
-			@include textShadow(0 1px 1px, rgba(0,0,0,0.4)); 
+			@include textShadow(0 1px 1px, rgba(0,0,0,0.4));
 			@include transition(all, 0.3s, ease-in);
-			padding: 0 1.3em; 
-			@media screen and (max-width: $width-md){
+			padding: 0 1.3em;
+		@media screen and (max-width: $width-md){
 			font-size: 20px;
 			list-style: none;
 		}
@@ -66,6 +67,9 @@
 			&:hover{ opacity: 0.6; }
 
 			&:last-child{ padding-right: 0; }
+		}
+		&.right {
+			float: right;
 		}
 	}
 }

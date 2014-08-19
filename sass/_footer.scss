@@ -4,13 +4,19 @@
   color: $white;
   background: $light-blue;
   font-size: 11px;
-  height: 30px; 
+  height: 30px;
   text-decoration: none;
   padding: 10px 0px 0px;
 
     ol, ul, .row{
       margin-bottom: 0;
     }
+
+  &.home {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
 }
 
 footer ul{
@@ -22,13 +28,14 @@ footer ul{
   display: inline;
   margin-right:5px;
   text-decoration: none;
+  color:#fff;
 }
 
 .footer-nav li{
   display: inline;
   margin-right:5px;
   text-decoration: none;
-    &:hover{ color:#fff; }
+    &:hover{ color: $black; }
 
     &:last-child{ margin-right: 0;}
   }

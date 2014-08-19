@@ -54,15 +54,15 @@ height: 30px;
 .gray-back{ background-color: $background-gray; }
 
 .margin-top-sm{
-  @include marginTop(10px); 
+  @include marginTop(10px);
 }
 
 .margin-top-md{
-  @include marginTop(20px); 
+  @include marginTop(20px);
 }
 
 .margin-top-lg{
-  @include marginTop(50px); 
+  @include marginTop(50px);
 }
 
 .margin-bottom-sm{
@@ -92,10 +92,10 @@ h1, h2, h3, h4, h5, h6{
   color: $dark-blue;
 }
 
-p{ 
+p{
   font-family: $font-sans, "Arial", sans-serif;
   font-size: 14px;
-  line-height: 20px 
+  line-height: 20px
 }
 
 h1{
@@ -112,7 +112,7 @@ h3{
   font-size: 40px;
 }
 
-h4{     
+h4{
   font-size: 36px;
   line-height: 40px;
 }
@@ -131,7 +131,7 @@ h6{
 
 p{ font-family: $font-sans;
   font-size: 14px;
-  line-height: 1.5 
+  line-height: 1.5
 }
 
 .uppercase{
@@ -198,7 +198,7 @@ p{ font-family: $font-sans;
   font-weight: 600;
   line-height: 22px;
 }
- 
+
 p.aside{
   margin: 10px;
   margin-top: 0;
@@ -218,7 +218,7 @@ p.aside{
 
 hr.vertical {
   border : 0;
-  height : 100px; 
+  height : 100px;
   width : 1px;
   background: $dark-gray;
   position: relative;
@@ -227,13 +227,13 @@ hr.vertical {
 
 //RESPONSIVE SECTION
 
-.visuallyhidden { 
+.visuallyhidden {
   @media screen and (max-width: $width-md){
-  position: absolute; 
-  overflow: hidden; 
-  clip: rect(0 0 0 0); 
-  height: 1px; width: 1px; 
-  margin: -1px; padding: 0; border: 0; 
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
   }
 }
 
