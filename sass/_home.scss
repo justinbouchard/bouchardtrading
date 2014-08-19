@@ -47,6 +47,7 @@ body {
 
 .homepage-container {
   height: 100%;
+  
   .home-wrapper {
     background: url(../img/header-img-gray.jpg) no-repeat top center;
     -webkit-background-size: cover;
@@ -60,10 +61,12 @@ body {
     margin: 0 auto;
     background-attachment: fixed;
     padding-bottom: 0px;
+    
     img.home-logo {
       margin: 0px auto;
       display: block;
-      width: 715px;
+      width: 70%;
+
       @media screen and (max-width: $width-md) {
         width: 450px;
       }

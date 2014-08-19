@@ -1,5 +1,6 @@
 img.headshot{
 	height: auto;
+	margin-top: 5.3em;
 	width: 96%;
 
 }
@@ -7,4 +8,24 @@ img.headshot{
 .af-logo{
 	background-image: url('../img/af_logo.png');
 	@include backgroundSize(cover);
+}
+
+
+//ALGOFAST CODE
+
+.press-block{
+	padding: 0.4em 0;
+
+	&:first-child{ margin-top: 2.3em; }
+
+	h5 a{
+		color: $dark-blue;
+		display: block;
+		font-family: $font-sans;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 0.8em;
+		text-decoration: none;
+	}
 }
